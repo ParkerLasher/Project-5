@@ -1,0 +1,229 @@
+/*
+   CSS Style Sheet for BreweryFX Home Page
+
+   Author: Joseph Frey, Dr. Roger Webster, Parker Lasher
+   Date: 11/30/22
+   Modified by: Dr. Roger Webster, Parker Lasher
+   Date: 11/1/2023
+*/
+
+/*
+	General CSS
+*/
+
+html {
+	height: 100%;
+	margin: 0 6% 0 6%;
+	padding: 0;
+	border: 0;
+	background-color: rgb(255, 174, 0);
+}
+
+body {
+	margin: 0px auto auto auto;
+	width: 100%;
+	background-color: white;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.7vw;
+	font-weight: 500;
+}
+
+body>section>h1 {
+	font-size: 4.5vw;
+	padding-left: 4%;
+	padding-top: .5%;
+	margin-top: 0%;
+	margin-bottom: 1%;
+}
+
+body>section>p {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 1.5vw;
+}
+footer{
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-content: center;
+	background-color: rgb(255, 174, 0);
+}
+
+.container{
+	display: flex;
+	
+	align-content: center;
+}
+.card{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-title{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.1vw;
+	color: black;
+}
+.card-price{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.1vw;
+	color: blue;
+}
+.img-size{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	background-color: black;
+}
+.img-size-bottles{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	background-color: black;
+}
+
+.img-size-cans{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	object-fit: contain;
+	object-position: center;
+
+}
+
+.img-size-sign{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	background-color: black;
+	
+}
+.img-size-coasters{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	background-color: black;
+}
+.img-size-tray{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	background-color: black;
+}
+.img-fluid{
+	width: 100%;
+	height: 100%;
+}
+.navbar-expand-sm{
+	display:flex;
+	flex-wrap: wrap;
+}
+.navbar-nav .nav-link i.fa-bottle-droplet{
+	display: none;
+
+}
+.mobile-only-link{
+	display: none;
+}
+.navbar-nav .nav-link i.fa-circle{
+	display: none;
+}
+.navbar-nav .nav-link i.fa-sign-hanging{
+	display: none;
+}
+.navbar-nav .nav-link i.fa-can-food{
+	display: none;
+
+}
+.navbar-nav .nav-link i.fa-circles-overlap{
+	display: none;
+}
+.navbar-nav .nav-link i.fa-note-sticky{
+display: none;
+}
+.navbar-nav .nav-link i.fa-map{
+display: none;
+}
+.navbar-nav .nav-link i.fa-house{
+display: none;
+}
+.navbar-nav .nav-link i.fa-address-book{
+display: none;
+}
+@media(max-width: 768px){
+	body{
+		font-size: 4vw;
+	}
+	body>section>h1{
+		font-size: 8vw;
+	}
+	body>section>p{
+		font-size: 4vw;
+	}
+	.card-title{
+		font-size: 5.5vw;
+	}
+	.card-price{
+		font-size: 5.5vw;
+	}
+	.navbar-collapse .nav-link{
+		font-size: 5.5vw;
+	}
+	footer{
+		font-size: 4vw;
+	}
+	.navbar-nav .nav-link i.fa-bottle-droplet {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.mobile-only-link{
+		display: block;
+	}
+	.navbar-nav .nav-link i.fa-circle{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-sign-hanging{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-can-food{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-circles-overlap{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-note-sticky{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-map{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-house{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.navbar-nav .nav-link i.fa-address-book{
+		display: inline-block;
+		margin-right: 5px;
+	}
+}
